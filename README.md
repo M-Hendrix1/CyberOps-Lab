@@ -19,11 +19,14 @@ A portfolio project for building and documenting an isolated cybersecurity opera
 - Hardware virtualization: Enabled
 - Available SSD space: 250–500 GB
 
-VirtualBox is the selected virtualization platform. Installation and lab deployment should be recorded as completed only after verification.
+## Verified progress
+
+- **VirtualBox 7.2.22:** Installed on the Windows 11 Home host; VirtualBox Manager opened successfully on 2026-11-16.
+- No virtual machine has been created yet.
 
 ## Planned architecture
 
-The intended lab contains a VirtualBox isolated network, an Ubuntu Server system for Wazuh, and monitored Windows and Linux endpoints. Network design and VM sizing are documented in [the architecture notes](docs/architecture.md). This is a target design, not a claim that the systems are already running.
+The intended lab contains a VirtualBox isolated network, an Ubuntu Server system for Wazuh, and monitored Windows and Linux endpoints. Network design and VM sizing are documented in [the architecture notes](docs/architecture.md). This is a target design, not a deployed topology.
 
 ## Work tracking
 
@@ -45,7 +48,7 @@ Keep the lab network isolated from production devices. Never commit credentials,
 | Capability | Status |
 | --- | --- |
 | Windows host readiness | Confirmed |
-| VirtualBox installation | Planned; verify before marking complete |
+| VirtualBox installation | Verified: 7.2.22; Manager opened successfully |
 | Isolated lab network | Planned |
 | Ubuntu Server VM | Planned |
 | Wazuh SIEM | Planned |
